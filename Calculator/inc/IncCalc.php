@@ -27,6 +27,14 @@ class Calc{
             case 'mul':
                 $result = $this->num1 * $this->num2;
                 break;
+                
+            case 'div':
+                $result = $this->num1 / $this->num2;
+                break;
+
+            case 'rem':
+                $result = $this->num1 % $this->num2;
+                break;    
 
             default:
                 $result= "error";
