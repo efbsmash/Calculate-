@@ -12,6 +12,8 @@
         <option value="add">Add</option>
         <option value="sub">Subtract</option>
         <option value="mul">Multiply</option>
+        <option value"div">Division</option>
+        <option value"rem">Remainder</option>
     </select>
     <button type="submit">Calculate</button>
     </form>
