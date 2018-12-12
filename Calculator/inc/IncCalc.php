@@ -17,30 +17,30 @@ class Calc{
 
         switch ($this->calc){
             case 'add':
-                $result = $this->num1 + $this->num2;
+                $answer = $this->num1 + $this->num2;
                 break;
 
             case 'sub':
-                $result = $this->num1 - $this->num2;
+                $answer = $this->num1 - $this->num2;
                 break;
 
             case 'mul':
-                $result = $this->num1 * $this->num2;
+                $answer = $this->num1 * $this->num2;
                 break;
                 
             case 'div':
-                $result = $this->num1 / $this->num2;
+                $answer = $this->num1 / $this->num2;
                 break;
 
             case 'rem':
-                $result = $this->num1 % $this->num2;
+                $answer = $this->num1 % $this->num2;
                 break;    
 
             default:
-                $result= "error";
+                $answer = "error";
                 break;
 
         }
-        return $result;
+        return $answer;
     }
 }
